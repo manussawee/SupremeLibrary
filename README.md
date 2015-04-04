@@ -11,7 +11,7 @@ INSTALLATION
 This library include 3 main files
 - `SupremeGrader.php` => This is a library that contain functions depend on PHP and Apache.
 - `check_general.cpp` => This is a checking script. Its function is compare result of your code and correct answer that you have prepared. And it depend on G++ to compile.
-- `timeout` => The timeout script is a resource monitoring program for limiting time and memory consumption of black-boxed processes under Linux. You will need latest version of Perl (recommend Perl 5) to run the script. In the library, we call it that 'Limiter'. Thank Pavel Shved for 'timeout' script (url: https://github.com/pshved/timeout).
+- `timeout` => The timeout script is a resource monitoring program for limiting time and memory consumption of black-boxed processes under Linux. You will need latest version of Perl (recommend Perl 5) to run the script. In the library, we call it that 'Limiter'. Thank Pavel Shved for `timeout` script (url: https://github.com/pshved/timeout).
 So you have to install PHP, Apache, G++ and Perl in your Linux.
 
 USAGE
