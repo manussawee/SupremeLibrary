@@ -95,7 +95,7 @@ USAGE
     if($myJudge->compile())
     {
     	//Execute and get info
-    	$myJudeg->execute();
+    	$myJudge->execute();
     }
     ?>
 
