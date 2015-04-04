@@ -183,6 +183,6 @@ if($myJudge->compile())
 
 You may call '$this->log' to see all law output from library and '$this->lst_log' to see latest output from library.
 
-++==============++
+++=============++
 ||END OF README||
-++==============++
+++=============++
