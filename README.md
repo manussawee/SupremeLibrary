@@ -7,7 +7,7 @@ INSTALLATION
 ============
 
 This library include 3 main files
-- `SupremeGrader.php` => This is a library that contain functions depend on PHP and Apache.
+- `SupremeLibrary.php` => This is a library that contain functions depend on PHP and Apache.
 - `check_general.cpp` => This is a checking script. Its function is compare result of your code and correct answer that you have prepared. And it depend on G++ to compile.
 - `timeout` => The timeout script is a resource monitoring program for limiting time and memory consumption of black-boxed processes under Linux. You will need latest version of Perl (recommend Perl 5) to run the script. In the library, we call it that 'Limiter'. Thank Pavel Shved for `timeout` script (url: https://github.com/pshved/timeout).
 So you have to install PHP, Apache, G++ and Perl in your Linux.
@@ -18,14 +18,14 @@ USAGE
 #####1. Include the library file and decare variable of this library class on your php script.
 
     <?php
-    include('path/to/your/SupremeGrader.php');
+    include('path/to/your/SupremeLibrary.php');
     $myJudge = new SupremeClass;
     ?>
 
 #####2. Prepare important data before call the function in the library.
 
     <?php
-    include('path/to/your/SupremeGrader.php');
+    include('path/to/your/SupremeLibrary.php');
     $myJudge = new SupremeClass;
     	
     //the code you want to check it.
@@ -59,7 +59,7 @@ USAGE
 #####3. Compile your code and checking code.
 
     <?php
-    include('path/to/your/SupremeGrader.php');
+    include('path/to/your/SupremeLibrary.php');
     $myJudge = new SupremeClass;
     $myJudge->code = 'path/to/your/code.cpp';
     $myJudge->exct = 'path/to/your/a.out'; 
@@ -80,7 +80,7 @@ USAGE
 #####4. Execute your executed file with input file and get time and memory usage if they lower than limited.
 
     <?php
-    include('path/to/your/SupremeGrader.php');
+    include('path/to/your/SupremeLibrary.php');
     $myJudge = new SupremeClass;
     $myJudge->code = 'path/to/your/code.cpp';
     $myJudge->exct = 'path/to/your/a.out'; 
@@ -108,7 +108,7 @@ USAGE
 #####5: Check the result form excuted file and correct result.
 
     <?php
-    include('path/to/your/SupremeGrader.php');
+    include('path/to/your/SupremeLibrary.php');
     $myJudge = new SupremeClass;
     $myJudge->code = 'path/to/your/code.cpp';
     $myJudge->exct = 'path/to/your/a.out'; 
@@ -138,7 +138,7 @@ The `check()` function will return
 #####OPTIONAL: If you need to check more that one testcase. No need to do every steps (1 - 5) again. Just change `$myJudge->in` and `$myJudge->key` (if you want to keep the result from code change `$myJudge->ans`) then do the step 4 and 5 again. Because step 3 has slowly functions and no need to do again.
     
     <?php
-    include('path/to/your/SupremeGrader.php');
+    include('path/to/your/SupremeLibrary.php');
     $myJudge = new SupremeClass;
     $myJudge->code = 'path/to/your/code.cpp';
     $myJudge->exct = 'path/to/your/a.out'; 
