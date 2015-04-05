@@ -135,7 +135,7 @@ The `check()` function will return
 - `0` if the result from your code is wrong.
 - `-1` if something is error.
 
-#####OPTIONAL: If you need to check more that one testcase. No need to do every steps (1 - 5) again. Just change `$myJudge->in` and `$myJudge->key` (if you want to keep the result from code change `$myJudge->ans`) then do the step 4 and 5 again. Because step 3 has slowly functions and no need to do again.
+#####OPTIONAL: If you need to check more than one testcase. No need to do every steps (1 - 5) again. Just change `$myJudge->in` and `$myJudge->key` (if you want to keep the result from code change `$myJudge->ans`) then do the step 4 and 5 again. Because step 3 has slowly functions and no need to do again.
     
     <?php
     include('path/to/your/SupremeLibrary.php');
