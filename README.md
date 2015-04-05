@@ -1,7 +1,7 @@
 INTRODUCTION
 ============
 
-Supreme Library is a library that contain essential functions for C/C++ online judge to compile C/C++ code and checking its result with the correct answer. It is depend on PHP, Apache, G++ and Perl. And all are work under ‘Linux’.
+Supreme Library is a library that contains essential functions for C/C++ online judge to compile C/C++ code and checking its result with the correct answer. It is depend on PHP, Apache, G++ and Perl. And all are work under ‘Linux’.
 
 INSTALLATION
 ============
@@ -77,7 +77,7 @@ USAGE
 
 `true` will be returned, if compilation was succeed.You may call `$myJudge->cmp_msg` to see the compile message after call the `compile()` function.
 
-#####4. Execute your executed file with input file and get time and memory usage if they lower than limited.
+#####4. Execute your compiled file with input file and get time and memory usage if they lower than limited.
 
     <?php
     include('path/to/your/SupremeLibrary.php');
