@@ -166,4 +166,4 @@ The `check()` function will return
 
 You may call `$this->log` to see all law output from library and `$this->lst_log` to see latest output from library.
 
-`Supreme Library v1.0 by PanTA`
+`Supreme Library v1.1 by PanTA`

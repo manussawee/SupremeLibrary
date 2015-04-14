@@ -1,7 +1,7 @@
 <?php
 
 /*
-Supreme Library v1.0
+Supreme Library v1.1
 */
 
 class SupremeClass {
@@ -28,7 +28,7 @@ class SupremeClass {
 		$this->pushLog($log);
 		$this->cmp_msg = $log;
 
-		return ($log == '') and ($log_chk == '');
+		return file_exists($this->exct);
 	}
 
 	public function execute() {
